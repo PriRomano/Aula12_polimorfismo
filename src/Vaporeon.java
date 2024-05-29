@@ -1,14 +1,21 @@
 public class Vaporeon extends Eevee {
     @Override
     public String ataque () {
-        return "MUDAR";
+        return "Aurora Beam";
     }
     @Override
     public String defesa () {
-        return "MUDAR";
+        return "Hydratation";
     }
     @Override
     public String especial () {
-        return "MUDAR";
+        return "Blizzard";
     }
+
+    //tipo agua
+    //HP 143
+    //peso 32.11kg
+    //altura 103cm
+
+
 }

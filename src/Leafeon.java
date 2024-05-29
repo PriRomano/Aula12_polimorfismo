@@ -1,14 +1,20 @@
 public class Leafeon extends Eevee {
     @Override
     public String ataque () {
-        return "MUDAR";
+        return "Leaf Blade";
     }
     @Override
     public String defesa () {
-        return "MUDAR";
+        return "Leaf Guard";
     }
     @Override
     public String especial () {
-        return "MUDAR";
+        return "Chlorophyl";
     }
+
+    //tipo planta
+    //HP 92
+    //altura 103cm
+    //peso 22.39
+
 }

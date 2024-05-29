@@ -1,14 +1,20 @@
 public class Glaceon extends Eevee {
     @Override
     public String ataque () {
-        return "MUDAR";
+        return "Water Pulse";
     }
     @Override
     public String defesa () {
-        return "MUDAR";
+        return "Ice Body";
     }
     @Override
     public String especial () {
-        return "MUDAR";
+        return "Snow Cloak";
     }
+
+    //tipo gelo
+    //HP 85
+    //altura 63cm
+    //peso 15.50kg
+
 }

@@ -1,14 +1,20 @@
 public class Sylveon extends Eevee {
     @Override
     public String ataque () {
-        return "MUDAR";
+        return "Dazzling Gleam";
     }
     @Override
     public String defesa () {
-        return "MUDAR";
+        return "Cute Charm";
     }
     @Override
     public String especial () {
-        return "MUDAR";
+        return "Pixilate";
     }
+
+    //tipo fada
+    //HP 63
+    //altura 87cm
+    //peso 20.04kg
+
 }

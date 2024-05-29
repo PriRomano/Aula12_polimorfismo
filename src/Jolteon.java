@@ -11,4 +11,11 @@ public class Jolteon extends Eevee {
     public String especial () {
         return "Raio - Thunder";
     }
+
+    //tipo eletrico
+    //HP 97
+    //altura 81cm
+    //peso 32.52kg
+
+    
 }

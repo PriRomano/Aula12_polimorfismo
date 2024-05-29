@@ -1,14 +1,20 @@
 public class Espeon extends Eevee {
     @Override
     public String ataque () {
-        return "MUDAR";
+        return "Dream Eater";
     }
     @Override
     public String defesa () {
-        return "MUDAR";
+        return "Synchronize";
     }
     @Override
     public String especial () {
-        return "MUDAR";
+        return "Magic Bounce";
     }
+
+    //tipo psiquico
+    //HP 56
+    //altura 68cm
+    //peso 17.75kg
+
 }
