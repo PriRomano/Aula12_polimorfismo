@@ -10,6 +10,8 @@ public class Pokedex {
         Umbreon u = new Umbreon ();
         Vaporeon v = new Vaporeon ();
     
+        //tentar imprimir as infos da Eevee!!!
+
 
         //OK Implementar as outras classes - falta ver os nomes dos ataques
         //OK implementar getters e setters
