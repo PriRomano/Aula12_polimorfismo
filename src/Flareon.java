@@ -1,4 +1,11 @@
 public class Flareon extends Eevee {
+    
+    //Construtor dos atributos
+    public Flareon (String tipo, double altura, int HP, double peso) {
+        super (tipo, altura, HP, peso);
+    }
+
+    //metodos de ataque
     @Override
     public String ataque () {
         return "Incinerate";
@@ -11,10 +18,4 @@ public class Flareon extends Eevee {
     public String especial () {
         return "Gust";
     }
-
-    //tipo fogo
-    //HP 69
-    //altura 95cm
-    //peso 26.35kg
-
 }

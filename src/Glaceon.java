@@ -1,4 +1,11 @@
 public class Glaceon extends Eevee {
+    
+    //Construtor dos atibutos
+    public Glaceon (String tipo, double altura, int HP, double peso) {
+        super (tipo, altura, HP, peso);
+    }
+
+    //metodos de ataque
     @Override
     public String ataque () {
         return "Water Pulse";
@@ -11,10 +18,4 @@ public class Glaceon extends Eevee {
     public String especial () {
         return "Snow Cloak";
     }
-
-    //tipo gelo
-    //HP 85
-    //altura 63cm
-    //peso 15.50kg
-
 }

@@ -1,4 +1,11 @@
 public class Espeon extends Eevee {
+    
+    //Construtor dos atributos
+    public Espeon (String tipo, double altura, int HP, double peso) {
+        super (tipo, altura, HP, peso);
+    }
+
+    //metodos de ataque
     @Override
     public String ataque () {
         return "Dream Eater";
@@ -11,10 +18,4 @@ public class Espeon extends Eevee {
     public String especial () {
         return "Magic Bounce";
     }
-
-    //tipo psiquico
-    //HP 56
-    //altura 68cm
-    //peso 17.75kg
-
 }

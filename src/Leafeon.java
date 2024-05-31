@@ -1,4 +1,11 @@
 public class Leafeon extends Eevee {
+    
+    //Construtor dos atributos
+    public Leafeon (String tipo, double altura, int HP, double peso) {
+        super (tipo, altura, HP, peso);
+    }
+    
+    //metodos de ataque
     @Override
     public String ataque () {
         return "Leaf Blade";
@@ -11,10 +18,4 @@ public class Leafeon extends Eevee {
     public String especial () {
         return "Chlorophyl";
     }
-
-    //tipo planta
-    //HP 92
-    //altura 103cm
-    //peso 22.39
-
 }

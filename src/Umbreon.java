@@ -1,4 +1,11 @@
 public class Umbreon extends Eevee {
+    
+    //Construtor dos atributos
+    public Umbreon (String tipo, double altura, int HP, double peso) {
+        super (tipo, altura, HP, peso);
+    }
+    
+    //metodos de ataque
     @Override
     public String ataque () {
         return "Dark Pulse";
@@ -11,10 +18,4 @@ public class Umbreon extends Eevee {
     public String especial () {
         return "Inner Focus";
     }
-
-   //tipo sombrio
-   //HP 169
-   //altura 100cm
-   //peso 27kg
-
 }
