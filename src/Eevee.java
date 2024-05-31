@@ -1,12 +1,36 @@
 public class Eevee {
     
     // atributos
-    private String tipo; // normal
-    private double altura; //29cm
-    private int HP; //57
-    private double peso; //6,44kg
+    private String tipo;    
+    private double altura;  
+    private int HP;         
+    private double peso;    
 
-    //tipos de ataques
+    //Constantes para atributos padrao
+    private static final String TIPO_PADRAO = "Normal";
+    private static final double ALTURA_PADRAO = 0.29; //metros
+    private static final int HP_PADRAO = 57;
+    private static final double PESO_PADRAO = 6.44; //kg
+
+
+    // Construtor padrao
+    public Eevee () {
+        this.tipo = TIPO_PADRAO;
+        this.altura = ALTURA_PADRAO;
+        this.HP = HP_PADRAO;
+        this.peso = PESO_PADRAO;
+    }
+
+    // Construtor dos atributos para digitar 
+    public Eevee (String tipo, double altura, int HP, double peso) {
+        this.tipo = tipo;
+        this.altura = altura;
+        this.HP = HP;
+        this.peso = peso;
+    }
+
+
+    //metodos de ataques
     public String ataque () {
         return "Ataque rápido";
     }
@@ -15,14 +39,6 @@ public class Eevee {
     }
     public String especial () {
         return "Tri-ataque";
-    }
-    // eu tenho q fazer o construtor do outros? tenho que usar o super q nem no empregado??
-    // Construtor
-    public Eevee (String tipo, double altura, int HP, double peso) {
-        this.tipo = tipo;
-        this.altura = altura;
-        this.HP = HP;
-        this.peso = peso;
     }
 
     // getters e setters
@@ -50,11 +66,5 @@ public class Eevee {
     public void setPeso(double peso) {
         this.peso = peso;
     }
-
-    // eu tenho que fazer isso?
-    // get dos ataques
-    //public String getAtaque () {
-    //    return ataque();
-    //}
 
 }
